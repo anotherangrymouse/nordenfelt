@@ -76,8 +76,8 @@ exports.locums = function(req, res) {
   });
 };
 
-exports.infomatics = function(req, res) {
-  res.render('workstreams/infomatics', {
+exports.informatics = function(req, res) {
+  res.render('workstreams/informatics', {
     title: 'Informatics'
   });
 };
