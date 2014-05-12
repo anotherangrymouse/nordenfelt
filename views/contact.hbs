@@ -1,6 +1,6 @@
 {{> header}}
 
-<div class="row" id="sthbrand">
+<div class="row" id="sheffchildbrand">
   <div class="container centered">
     <div class="backblock">
       <h1 id="whiteheading">{{title}}</h1>
@@ -15,9 +15,12 @@
 
 
         <div class="container" id="contactform">
+        <div class="row">
+        <div class="col-md-5">
             <div id="flash"></div>
             <div class="page-header">
                 <h3>Contact Form</h3>
+                <p>Send us a message and we will get back to you</p>
             </div>
             <form role="form" method="POST" class="form-horizontal" id="attributeForm">
                 <input type="hidden" name="_csrf" value="{{_csrf}}">
@@ -45,14 +48,52 @@
                     </div>
                 </div>
             </form>
+            </div> <!-- COLUMN END -->
+            
+            <div class="col-md-6">
+            <br>
+              <h3>Contact Details</h3>
+              
+              <p>All mail concerning the Working Together programme can be sent to:</p>
+              <address>
+                <strong>Working Together</strong><br>
+                Woodside<br>
+                Moorgate Road<br>
+                Rotherham<br>
+                S60 2UD<br>
+                <br>
+                <br>
+                </address>
+              
+              
+              <h3>Newsletter</h3>
+              <p>Feel free to sign up to our regular Working Together newsletter</p>
+              
+  <form class="form-inline" role="form">
+  <div class="form-group">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputPassword2">Password</label>
+    <input type="text" class="form-control" id="" placeholder="Name">
+  </div>
+    <label class="sr-only" for="exampleInputEmail2">Email address</label>
+    <input type="email" class="form-control" id="" placeholder="Enter email">
+  </div>
+    <button type="submit" class="btn btn-default">Register</button>
+</form>
+            </div>
+            
+            
+            
+            
+            </div> <!-- ROW END -->
         </div>
 
-<div class="row" id="sheffchildbrand">
+<div class="row" id="barnsleybrand">
   <div class="container centered">
     <div class="backblock">
       <h1 class="lighttext">Learn more</h1>
       <p class="lead lighttext">A partnership to deliver high quality, efficient patient care for South Yorkshire, Mid Yorkshire and North Derbyshire</p>
-      <p><a class="btn btn-doncaster btn-lg" role="button" href="/news">Find out more</a>
+      <p><a class="btn btn-shfchild btn-lg" role="button" href="/news">Find out more</a>
       </p>
     </div>
   </div>
