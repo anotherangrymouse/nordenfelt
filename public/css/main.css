@@ -95,6 +95,15 @@ a:after {
     padding: 0;
 }
 
+.ie8room {
+    display: block;
+    height: 20px;
+    border: 0;
+    border-top: 0px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
 .cathedral {
     height: 142px;
     border: 0;
